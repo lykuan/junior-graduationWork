@@ -1,0 +1,44 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.6",
+    "ant-design-vue": "^1.7.7",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-prismjs": "^2.1.0",
+    "crypto-js": "^4.1.1",
+    "css-loader": "^6.5.1",
+    "element-ui": "^2.15.5",
+    "emoji-mart-vue-fast": "^10.2.0",
+    "highlight.js": "^11.2.0",
+    "js-md5": "^0.7.3",
+    "postcss-loader": "^3.0.0",
+    "prismjs": "^1.25.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.2",
+    "vue-scroll": "^2.1.13",
+    "vuex": "^3.6.2",
+    "wangeditor": "^4.7.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^12.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
